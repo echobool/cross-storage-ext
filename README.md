@@ -95,8 +95,8 @@ npm install cross-storage-ext
 along with browserify:
 
 ``` javascript
-var CrossStorageClient = require('cross-storage').CrossStorageClient;
-var CrossStorageHub    = require('cross-storage').CrossStorageHub;
+var CrossStorageClient = require('cross-storage-ext').CrossStorageClient;
+var CrossStorageHub    = require('cross-storage-ext').CrossStorageHub;
 ```
 
 When serving the hub, you may want to set the CORS and CSP headers for your
