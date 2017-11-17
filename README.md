@@ -83,13 +83,13 @@ storage.onConnect().then(function() {
 The library can be installed via bower:
 
 ``` bash
-bower install cross-storage
+bower install cross-storage-ext
 ```
 
 Or using npm:
 
 ``` bash
-npm install cross-storage
+npm install cross-storage-ext
 ```
 
 along with browserify:
@@ -131,7 +131,7 @@ message is sent to the parent window once complete.
 ``` javascript
 CrossStorageHub.init([
   {origin: /localhost:3000$/, allow: ['get', 'set', 'del', 'getKeys', 'clear']}
-]);
+],'sessionStorage');
 ```
 
 #### new CrossStorageClient(url, [opts])
