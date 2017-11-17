@@ -100,7 +100,7 @@ var CrossStorageHub    = require('cross-storage-ext').CrossStorageHub;
 ```
 with webpack
 ``` javascript
-import {CrossStorageHub } from 'cross-storage'
+import {CrossStorageHub } from 'cross-storage-ext'
 ```
 
 When serving the hub, you may want to set the CORS and CSP headers for your
