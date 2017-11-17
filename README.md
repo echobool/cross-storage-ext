@@ -98,6 +98,10 @@ along with browserify:
 var CrossStorageClient = require('cross-storage-ext').CrossStorageClient;
 var CrossStorageHub    = require('cross-storage-ext').CrossStorageHub;
 ```
+with webpack
+``` javascript
+import {CrossStorageHub } from 'cross-storage'
+```
 
 When serving the hub, you may want to set the CORS and CSP headers for your
 server depending on client/hub location. For example:
