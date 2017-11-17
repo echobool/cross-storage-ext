@@ -1,5 +1,5 @@
 {
-  "name": "cross-storage",
+  "name": "cross-storage-ext",
   "version": "1.0.0",
   "description": "Cross domain local storage",
   "keywords": [
@@ -9,12 +9,12 @@
     "domain"
   ],
   "main": "lib/index.js",
-  "author": "Daniel St. Jules <danielst.jules@gmail.com>",
+  "author": "jinyi Luo <ljy518338@163.com>",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/zendesk/cross-storage",
+  "homepage": "https://github.com/echobool/cross-storage-ext",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zendesk/cross-storage.git"
+    "url": "git+https://github.com/echobool/cross-storage-ext.git"
   },
   "devDependencies": {
     "connect": "^2.25.7",
@@ -29,7 +29,14 @@
     "zuul": "~3.10.1"
   },
   "scripts": {
-    "test": "./node_modules/.bin/zuul --local 8080 --ui mocha-bdd -- test/test.js",
-    "saucetest": "./node_modules/.bin/zuul --ui mocha-bdd -- test/test.js"
+    "test": "zuul --local 8080 --ui mocha-bdd -- test/test.js",
+    "saucetest": "zuul --ui mocha-bdd -- test/test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/echobool/cross-storage-ext/issues"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
   }
 }
